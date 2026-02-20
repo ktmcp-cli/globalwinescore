@@ -1,0 +1,30 @@
+<svg width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#722F37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C73866;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="200" fill="#0d1117"/>
+
+  <!-- Wine glass icon -->
+  <g transform="translate(60, 60)">
+    <path d="M 30 10 L 50 10 L 45 50 C 45 60 40 65 40 65 L 40 80 L 50 80 L 50 85 L 30 85 L 30 80 L 35 80 L 35 65 C 35 65 30 60 30 50 Z"
+          fill="url(#grad)" stroke="#C73866" stroke-width="1.5"/>
+    <ellipse cx="40" cy="10" rx="10" ry="3" fill="none" stroke="#C73866" stroke-width="1.5"/>
+  </g>
+
+  <!-- Title -->
+  <text x="140" y="90" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="url(#grad)">
+    GlobalWineScore CLI
+  </text>
+
+  <!-- Subtitle -->
+  <text x="140" y="125" font-family="Arial, sans-serif" font-size="18" fill="#8b949e">
+    Wine ratings from your terminal
+  </text>
+
+  <!-- Bottom accent -->
+  <rect x="140" y="145" width="500" height="2" fill="url(#grad)" opacity="0.5"/>
+</svg>
